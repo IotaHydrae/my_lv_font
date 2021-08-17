@@ -8,6 +8,7 @@ Online Font Converter
 ## Convert TTF and WOFF fonts to C array
 >  LVGL官方字体转换工具[LVGL Font convert](https://lvgl.io/tools/fontconverter)
 
+`2021-8-17 字体范围一定要注意设置0x0 ~0x20的，否则会丢失官方定义的SYMBOL符号！`
 
 向LVGL项目中添加自定义字体支持分为以下几个步骤
 
